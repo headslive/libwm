@@ -2,3 +2,6 @@
 
 %:
 	dh $@
+
+override_dh_auto_configure:
+	sed -e 's@/local@@' -i config.mk
