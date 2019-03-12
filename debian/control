@@ -1,0 +1,17 @@
+Source: libwm
+Section: misc
+Priority: optional
+Maintainer: Ivan J. <parazyd@dyne.org>
+Build-Depends: debhelper (>= 9), libxcb1-dev
+Homepage: https://github.com/wmutils/libwm
+Standards-Version: 3.9.8
+Vcs-Browser: https://github.com/wmutils/libwm
+Vcs-Git: https://github.com/wmutils/libwm.git
+
+Package: libwm
+Architecture: any
+Description: A small library for X windows manipulation
+
+Package: libwm-dev
+Architecture: all
+Description: A small library for X windows manipulation (development files)
